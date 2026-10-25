@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f2ee"><title>AURA One 桌面音响</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="aura.css?asset=1bf2323e0906"><script src="aura.js?asset=8ed02a6352ab" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至内容</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="AURA 首页">aura<span class="brand-dot"></span></a>
+    <nav aria-label="主导航"><a href="#design">设计</a><a href="#details">细节</a><button class="pill small" data-book>预约试听<span aria-hidden="true">↗</span></button></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-top"><h1 id="hero-title">AURA One<br><span>桌面好声音</span></h1></div>
+      <figure class="product-stage"><img src="assets/aura-speaker.png" alt="暖银色金属桌面音响，细密网孔、橡木底座与暖橙色旋钮" width="1536" height="1024" fetchpriority="high"></figure>
+    </section>
+    <section class="design-section wrap" id="design" aria-labelledby="design-title">
+      <div class="design-grid"><h2 id="design-title">细腻金属<br><span>温润原木</span></h2></div>
+      <div class="material-grid"><figure class="detail-photo"><img src="assets/aura-speaker.png" alt="近看细密的金属网孔与暖橙色旋钮" width="1536" height="1024" loading="lazy"></figure></div>
+    </section>
+    <section class="details-section" id="details"><div class="wrap details-layout"><h2>试听体验</h2><div class="details-list"><details><summary>体验须知<span aria-hidden="true">+</span></summary><p>试听计划仅保存在本机<br>不提交真实预约或付款</p></details></div></div></section>
+    <section class="closing wrap"><h2>留点时间<br>听点好声音</h2><button class="pill" data-book>预约试听 <span aria-hidden="true">↗</span></button><p class="booking-summary" id="booking-summary" role="status" hidden></p></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="index.html" aria-label="AURA 首页">aura<span class="brand-dot"></span></a><p>原创概念产品 本地演示</p></footer>
+  <dialog id="booking-dialog" aria-labelledby="booking-title"><form id="booking-form"><button class="dialog-close" type="button" aria-label="关闭预约窗口">×</button><h2 id="booking-title">预约试听</h2><fieldset><legend>选择时间</legend><label class="time-option"><input type="radio" name="slot" value="周六 14:00" required checked><span>周六</span><strong>14:00</strong></label><label class="time-option"><input type="radio" name="slot" value="周日 15:00"><span>周日</span><strong>15:00</strong></label></fieldset><button class="pill submit-plan" type="submit">保存试听计划 <span aria-hidden="true">↗</span></button><p class="form-note" id="booking-status" role="status">仅本机保存 不提交预约或付款</p></form></dialog>
+</body></html>

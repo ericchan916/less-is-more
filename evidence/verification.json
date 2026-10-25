@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-26",
+  "method": "Browser interaction and screenshot inspection on synthetic local examples",
+  "responsive": [
+    {
+      "scene": "audio",
+      "screen": "desktop",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "AURA One桌面好声音",
+        "细腻金属温润原木",
+        "试听体验",
+        "留点时间听点好声音",
+        "预约试听"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "width": 1425
+    },
+    {
+      "scene": "software",
+      "screen": "desktop",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "想法成形文稿有序",
+        "本地处理"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "width": 1425
+    },
+    {
+      "scene": "hotel",
+      "screen": "desktop",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "住进海风",
+        "你的假期从这里开始"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "width": 1425
+    },
+    {
+      "scene": "architecture",
+      "screen": "desktop",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "空间有序",
+        "庭院住宅",
+        "从一处空间开始讨论",
+        "项目意向"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "width": 1425
+    },
+    {
+      "scene": "coffee",
+      "screen": "desktop",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "一杯刚好",
+        "今日风味",
+        "咖啡清单"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "width": 1425
+    },
+    {
+      "scene": "audio",
+      "screen": "tablet",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "AURA One桌面好声音",
+        "细腻金属温润原木",
+        "试听体验",
+        "留点时间听点好声音",
+        "预约试听"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "scene": "software",
+      "screen": "tablet",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "想法成形文稿有序",
+        "本地处理"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "scene": "hotel",
+      "screen": "tablet",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "住进海风",
+        "你的假期从这里开始"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "scene": "architecture",
+      "screen": "tablet",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "空间有序",
+        "庭院住宅",
+        "从一处空间开始讨论",
+        "项目意向"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "scene": "coffee",
+      "screen": "tablet",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "一杯刚好",
+        "今日风味",
+        "咖啡清单"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "viewport": 768,
+      "width": 753
+    },
+    {
+      "scene": "audio",
+      "screen": "mobile",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "AURA One桌面好声音",
+        "细腻金属温润原木",
+        "试听体验",
+        "留点时间听点好声音",
+        "预约试听"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 375,
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "scene": "software",
+      "screen": "mobile",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "想法成形文稿有序",
+        "本地处理"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 375,
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "scene": "hotel",
+      "screen": "mobile",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "住进海风",
+        "你的假期从这里开始"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 375,
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "scene": "architecture",
+      "screen": "mobile",
+      "auxiliaryParagraphs": 2,
+      "h1s": 1,
+      "headings": [
+        "空间有序",
+        "庭院住宅",
+        "从一处空间开始讨论",
+        "项目意向"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 375,
+      "viewport": 390,
+      "width": 375
+    },
+    {
+      "scene": "coffee",
+      "screen": "mobile",
+      "auxiliaryParagraphs": 1,
+      "h1s": 1,
+      "headings": [
+        "一杯刚好",
+        "今日风味",
+        "咖啡清单"
+      ],
+      "imagesLoaded": true,
+      "scrollWidth": 375,
+      "viewport": 390,
+      "width": 375
+    }
+  ],
+  "interactions": {
+    "audio": true,
+    "software": true,
+    "softwareCancellation": true,
+    "hotelInvalidRangeRejected": true,
+    "hotelPlanReloaded": true,
+    "architectureZoom": true,
+    "architectureIntentReloaded": true,
+    "coffeeAdd": true,
+    "coffeeRemove": true,
+    "coffeeUndo": true,
+    "coffeeReload": true,
+    "longSingleParagraphBodyRetained": true,
+    "longSingleParagraphActionRetained": true
+  },
+  "browserWarningsAndErrors": [],
+  "limitations": "Screenshots and functional checks do not certify aesthetic quality or universal improvement. All cases use local simulated data.",
+  "regressionTests": {
+    "command": "node --test tests/writing.test.mjs",
+    "passed": 3,
+    "scope": "single long paragraph, long opening paragraph, short title with body"
+  }
+}

@@ -1,4 +1,4 @@
-# Less but better
+# Less is More
 
 先做减法 再把留下的内容做好
 

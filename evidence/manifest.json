@@ -1,13 +1,13 @@
 {
-  "scope": "Publication content snapshot; excludes this manifest",
+  "scope": "Publication content snapshot after naming-only amendment; excludes this manifest",
   "basePublicationCommit": "902d9329eec769fb1b9531b30815c97b9bf1674b",
   "files": {
     ".gitignore": "e52e691392e76d7e81f44dcde3dfbfa94596438ddab38919905b5a7fd931b991",
     "ASSETS.md": "a42ebbaf7f4774112fa1fb95bcdd18d184fe00247f3ffe3ff634b385ccea3556",
     "LICENSE": "7fd1c861177c5ac8a36fa80f5f216c92a0afbb0a6ce88a2b4c0f5aceb75d05e3",
-    "README.md": "50a6d4151d808c63e7e7e3129f90a5ebe5ef91afa6f3fd0848da068875b45da9",
-    "SKILL.md": "1a01a84233307b73cbd2e950f38095d96c1ed50e8ca34a952238965385cb7e61",
-    "agents/openai.yaml": "e34debf3276366f9026a9bd087d2338f862d2e435037e402d08e876509ec0e2f",
+    "README.md": "b8e3d5bf1eaf4107694fd10a3811eefa1f4b5f54aacc1b1e0683df78187e197f",
+    "SKILL.md": "81d0de09d6db5f247ebc73f527e608a30f148d4c1944fbcdf18190e44fa34a55",
+    "agents/openai.yaml": "c19180fa8fccb2a08fc82d88b1df765cf5aa1e6c44a853f96e76f240f33055da",
     "evals/architecture-lab/README.md": "4b0349415fcd70430bfa75c398ae153d4a895cb989b9f1a1a1b81fba7c48ad69",
     "evals/architecture-lab/probe.py": "c82d7b3b16d23b139d3029b7cec99a828742c323459034e591ac66f3c906b800",
     "evals/print-studio/FROZEN.json": "c8fb18c17a402dc96ef125ec7c178b3ab876c6c1243cc493ff6c80633c407912",
@@ -25,6 +25,8 @@
     "evals/print-studio/skill/studio.py": "41595aaa891df509e69f0f078bda7dfea712e9992b14a3b8acd2eba7e099a959",
     "evidence/consolidation.json": "39f50a4061cb80a307312efbd310092b567b7ed79ff117d26514783bcb58f8bf",
     "evidence/independent-review.md": "0a70a1a96128bc8f6b46fdb6d225af904e0a7223f43e94a908750c29c2186aa9",
+    "evidence/naming-review.md": "fc96b6479705e039f9da87acfe162f039d2935bfd7c75c4ac1206beeadef5292",
+    "evidence/naming-update.json": "5048b74e8564e2ce5f5976abfaf09fb56551ceab4489610b0916c71923c9273d",
     "evidence/verification.json": "f056ec5deb13f8f35e65fd96e3334761c3bed0fcaa49648394e5c79fd687087c",
     "examples/architecture/assets/architecture.png": "ef7c5d6fcffa7da49b98f80ea82332d90c40a1deb3c768cd3a31404d3deeeea6",
     "examples/architecture/index.html": "9758d3218c0da2ffc1f55c062f8cd106eaa720294d3e53d17e7ad2869041f1db",
@@ -80,5 +82,5 @@
   "staticLinksChecked": 57,
   "privatePathOrCredentialScan": "no matches in the checked text files; not proof of absence",
   "javascriptSyntax": "unchanged since base publication",
-  "independentReview": "PASS for local content; evidence/independent-review.md; only metadata and report finalization after substantive review"
+  "independentReview": "PASS for naming amendment: evidence/naming-review.md; prior functional evidence unchanged"
 }

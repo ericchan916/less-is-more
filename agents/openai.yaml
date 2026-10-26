@@ -1,4 +1,4 @@
 interface:
-  display_name: "Less but better"
+  display_name: "Less is More"
   short_description: "保留完整功能，精简架构、状态、Agent 编排与界面表达，按需加载方法"
-  default_prompt: "用 $less-but-better 在保留功能与必要保证的前提下精简这个系统，按当前任务加载架构或界面方法，实际验证承接路径与负担变化。"
+  default_prompt: "用 $less-is-more 在保留功能与必要保证的前提下精简这个系统，按当前任务加载架构或界面方法，实际验证承接路径与负担变化。"

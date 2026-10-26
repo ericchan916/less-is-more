@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "name": "Less is More",
+  "skillId": "less-is-more",
+  "previousName": "Less but better",
+  "previousSkillId": "less-but-better",
+  "baselineCommit": "1bb00ddc5bc12bd0c2d54e641da40c8bb18bef22",
+  "scope": "Naming and invocation metadata only; functional body and examples unchanged",
+  "functionalBodyComparison": "equal after replacing only the frontmatter name and heading",
+  "historicalEvidence": "frozen protocols, original hashes and prior independent reports retain their recorded names",
+  "review": {
+    "status": "PASS",
+    "record": "evidence/naming-review.md",
+    "scope": "naming candidate and local promotional material; final remote and archive verification follows synchronization"
+  },
+  "targetRepository": "https://github.com/ericchan916/less-is-more",
+  "targetRepositoryDescription": "Less is More — an agent skill for simplifying architecture and interfaces, with five working demos"
+}

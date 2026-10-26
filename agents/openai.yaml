@@ -1,4 +1,4 @@
 interface:
   display_name: "Less but better"
-  short_description: "以减法、精确排版和优美布局完成精致页面，整页辅助文案最多两块"
-  default_prompt: "用 $less-but-better 设计并实现这个页面，先删冗余小字，整页辅助文案最多两块，精确处理对齐、字形、间距、比例和响应式布局，保留完整功能并用浏览器检查。"
+  short_description: "保留完整功能，精简架构、状态、Agent 编排与界面表达，按需加载方法"
+  default_prompt: "用 $less-but-better 在保留功能与必要保证的前提下精简这个系统，按当前任务加载架构或界面方法，实际验证承接路径与负担变化。"

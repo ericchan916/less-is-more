@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "assignment": {
+    "A": "skill",
+    "B": "ordinary"
+  },
+  "seed": {
+    "studio.py": "09e47e3270c6475bfca495c131e616a6f8ed492366681b52fd74e22f9849d56b",
+    "test_smoke.py": "97145f598f96bc7e6792768bf7e724ef97ee67624483ff1e0e7743fefc5857c6",
+    "README.md": "2a500f01b71870dd6ea8b3cd990db1567b06db19a50d21e03efbf7f795bb73bc"
+  },
+  "evaluatorSha256": "40e8e2fe22465670df101f1f1439446b74276c74636446725d370f57a3356562",
+  "protocolSha256": "52176ed334d841995aa9b17c121d2a011780ec9040c19257f5f3536a8459daea",
+  "skillSnapshot": {
+    "LICENSE": "7fd1c861177c5ac8a36fa80f5f216c92a0afbb0a6ce88a2b4c0f5aceb75d05e3",
+    "SKILL.md": "1a01a84233307b73cbd2e950f38095d96c1ed50e8ca34a952238965385cb7e61",
+    "references/system-simplification.md": "bfc919e29ab03a6babde7c75a72888923a2ac5d9a8f889584b6bf66b3be2afd3",
+    "references/synthesis.md": "848d1a8aa1dd1375de869ae6cbb664d86bb41f8907ef65c14e5835fffa2baf79",
+    "references/research.md": "7e2ab5e9f4a99eca940502447dac48fda50d9b30110b171155268b4f585fae3a",
+    "references/design-mechanics.md": "f1ed00e512658430d95484a688048eef6c9236e28073b073a3ea754c4cc5a2ce",
+    "references/interface-design.md": "1fc7dbb06d0187fb1ccf623fc8ff3a9b40577127b6fdf72d86285cd03721f390",
+    "agents/openai.yaml": "e34debf3276366f9026a9bd087d2338f862d2e435037e402d08e876509ec0e2f",
+    "evals/architecture-lab/README.md": "4b0349415fcd70430bfa75c398ae153d4a895cb989b9f1a1a1b81fba7c48ad69",
+    "evals/architecture-lab/probe.py": "c82d7b3b16d23b139d3029b7cec99a828742c323459034e591ac66f3c906b800"
+  },
+  "baseline": {
+    "externalContractMethodsPassed": 18,
+    "publicSmokeMethodsPassed": 3
+  },
+  "agentSettings": "parent model and reasoning inherited; no overrides",
+  "scope": "synthetic single-process refactoring; not a visual or cross-model evaluation"
+}

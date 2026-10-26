@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-26",
+  "scope": "Architecture and interface consolidation with one new isolated architecture comparison; visual examples unchanged",
+  "basePublicationCommit": "902d9329eec769fb1b9531b30815c97b9bf1674b",
+  "architectureProbe": {
+    "command": "python3 -B -W error::ResourceWarning evals/architecture-lab/probe.py",
+    "sha256": "c82d7b3b16d23b139d3029b7cec99a828742c323459034e591ac66f3c906b800",
+    "testMethodsPassed": 10,
+    "exitCode": 0,
+    "resourceWarnings": 0,
+    "type": "author-authored synthetic candidate regression",
+    "assumptions": [
+      "simulated clock",
+      "single-process execution",
+      "ten-second provider deduplication window",
+      "optional strongly consistent definitive lookup retained beyond deduplication window"
+    ],
+    "observations": [
+      "baseline and complete simplification preserve the compared contracts",
+      "blind retry after the deduplication window creates two remote records",
+      "without lookup retry is allowed only within the original known window",
+      "expired window without lookup remains uncertain instead of claiming completion"
+    ],
+    "notTested": [
+      "real process termination or power loss",
+      "concurrent writers",
+      "production provider consistency",
+      "authentication",
+      "universal agent improvement"
+    ]
+  },
+  "structureChecks": {
+    "yaml": "frontmatter and UI metadata validated with Ruby standard-library Psych; no dependency installed",
+    "localLinksAndAssets": 57,
+    "brokenLinks": 0,
+    "sourceAndPublicationDraft": "shared skill files match; comparison reproducibility bundle matches frozen inputs and completed candidates",
+    "privatePathsAndCredentialPatternScan": "no matches; pattern scan is not proof of absence",
+    "gitDiffWhitespace": "passed"
+  },
+  "independentAgentComparison": {
+    "record": "evals/print-studio/results.json",
+    "frozenContractMethods": 18,
+    "ordinaryPassed": 18,
+    "skillPassed": 18,
+    "result": "same material architecture reduction; no demonstrated architecture advantage",
+    "anonymousIndependentReview": "completed before disclosure; baseline and both candidates 18/18 frozen contracts and 3/3 common smoke; equivalent material architecture reduction"
+  },
+  "independentReview": {
+    "status": "PASS",
+    "record": "evidence/independent-review.md",
+    "scope": "local publication content and stated synthetic checks; no new browser or production acceptance"
+  },
+  "visualEvidence": "evidence/verification.json remains the prior functional and visual record for unchanged examples; screenshots are not user aesthetic acceptance",
+  "claims": "no claim of universal superiority, irreplaceability, production correctness or all-agent compatibility",
+  "documentationFollowUp": {
+    "readScope": "all four referenced entrypoint files; cited scripts, subreferences and self-reported study data not fully audited or executed",
+    "licenseFollowUp": "Simplicity First and Taste root LICENSE files read and labeled MIT; other two entrypoints label MIT",
+    "adopted": "when a build step exists, final browser inspection targets the delivery build",
+    "rejected": "mandatory image and motion counts, supporting sentence under every heading, random direction scripts, self-reported aesthetic scores as proof",
+    "behavioralEvidence": "no new behavioral result; unchanged probe evidence reused only for its recorded source hash"
+  },
+  "recordContext": "Content verification snapshot prepared after independent local review; publication is evidenced by the repository commit, not this field"
+}

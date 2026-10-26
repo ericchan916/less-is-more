@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "scope": "One author-constructed print quotation refactoring case, two isolated agents, inherited host model and reasoning settings",
+  "assignment": {
+    "A": "skill",
+    "B": "ordinary"
+  },
+  "baseline": {
+    "classes": 8,
+    "sourceLines": 167,
+    "filesAfterSameJourney": [
+      "drafts.json",
+      "prices.json",
+      "quotes.json",
+      "receipts.json"
+    ],
+    "sha256": "09e47e3270c6475bfca495c131e616a6f8ed492366681b52fd74e22f9849d56b"
+  },
+  "candidates": {
+    "skill": {
+      "classes": 1,
+      "sourceLines": 94,
+      "filesAfterSameJourney": [
+        "drafts.json",
+        "prices.json",
+        "receipts.json"
+      ],
+      "sha256": "41595aaa891df509e69f0f078bda7dfea712e9992b14a3b8acd2eba7e099a959",
+      "exitCode": 0,
+      "contractResult": {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0
+      },
+      "studioSha256": "41595aaa891df509e69f0f078bda7dfea712e9992b14a3b8acd2eba7e099a959",
+      "resultCharacters": 107
+    },
+    "ordinary": {
+      "classes": 1,
+      "sourceLines": 100,
+      "filesAfterSameJourney": [
+        "drafts.json",
+        "prices.json",
+        "receipts.json"
+      ],
+      "sha256": "b5496903b8dfa154cccc67138e2f8f44ea41d155beb4bcd76628d7efd275ca9c",
+      "exitCode": 0,
+      "contractResult": {
+        "tests": 18,
+        "failures": 0,
+        "errors": 0
+      },
+      "studioSha256": "b5496903b8dfa154cccc67138e2f8f44ea41d155beb4bcd76628d7efd275ca9c",
+      "resultCharacters": 139
+    }
+  },
+  "codeInspection": {
+    "pricingRuleOwners": {
+      "baseline": 2,
+      "ordinary": 1,
+      "skill": 1
+    },
+    "derivedQuotePersistence": {
+      "baseline": "quotes.json",
+      "ordinary": "none",
+      "skill": "none"
+    },
+    "priceChangeCacheInvalidationCalls": {
+      "baseline": 1,
+      "ordinary": 0,
+      "skill": 0
+    },
+    "necessaryFactsRetained": [
+      "current prices",
+      "editable unsubmitted drafts",
+      "accepted historical receipts"
+    ],
+    "inspectionStatus": "independently confirmed in anonymous phase before assignment disclosure"
+  },
+  "conclusion": "Both candidates pass the same 18 frozen contract test methods and reach the same material architecture reduction. This case does not demonstrate an architecture advantage from the skill. Fewer source lines or report characters are descriptive only.",
+  "limitations": [
+    "single case constructed by the skill author",
+    "same inherited host configuration; no cross-model test",
+    "scope separation by instructions, no filesystem sandbox",
+    "all executor tool traces have not been independently audited",
+    "no visual comparison in this architecture case",
+    "not a production concurrency, power-loss or corrupted-data test"
+  ],
+  "independentReview": {
+    "anonymousComparison": "completed; no material architecture advantage of either candidate",
+    "record": "independent-comparison-review.md",
+    "publication": "PASS for local publication snapshot; see ../../evidence/independent-review.md"
+  }
+}
